@@ -1,0 +1,137 @@
+@font-face {
+    font-family:"Manrope";
+    src: url(./font/Manrope-VariableFont_wght.ttf);
+}
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 62.5%;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container::before {
+    content: "";
+    background-image: url('./imgaes/Untitled\ design.png');
+    opacity: 0.1;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.container {
+    width: 18rem;
+    padding: .7rem 1.3rem 1.4rem;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(0deg, #A03DDD 20%, #7977F6 65%);
+    border-radius: .4rem;
+}
+
+.top {
+    font-size: .9rem;
+    font-weight: 700;
+    padding-bottom: 1.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-login {
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+    border-radius: 100%;
+    background-color: #ffffff;
+    margin: .8rem;
+}
+
+.icon-login img {
+    width: 25px;
+}
+
+.form-inputs {
+    border-bottom: .01rem solid #ffffff;
+}
+
+.form-inputs input {
+    background-color: transparent;
+    border: none;
+    padding-bottom: .2rem;
+    padding-left: .2rem;
+    outline: none;
+}
+.form-inputs input::placeholder{
+    font-size: .6rem;
+    color: #ffffff;
+}
+
+.icon-person,
+.icon-lock {
+    color: #ffffff;
+}
+.form-inputs{
+    padding-bottom: .2rem;
+}
+.form div{
+    margin-bottom: 1.3rem;
+}
+.checkbox{
+    display: flex;
+    gap: .3rem;
+    align-items: center;
+}
+.login{
+    justify-self: center;
+    align-self: center;
+}
+.btn-login{
+    width: 5rem;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius:1rem;
+    margin-bottom: 4rem;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: .7rem;
+    /* display: flex; */
+    
+}
+.forget-pass{
+    font-size: .5rem;
+    color: #ffffff;
+    align-self: center;
+    text-decoration: none;
+}
