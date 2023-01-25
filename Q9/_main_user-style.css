@@ -7,7 +7,9 @@
     /* background-color: #b898de; */
 
 }
-
+.title-pricing h1{
+    padding: 1rem;
+}
 .desc-title-user {
     width: 25rem;
     text-align: center;
