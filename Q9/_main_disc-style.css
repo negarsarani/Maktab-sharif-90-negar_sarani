@@ -1,0 +1,37 @@
+
+.main-desc {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+
+}
+.text-desc-main {
+    width:25rem;
+}
+.h1-desc{
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+.desc-img img {
+    width: 35rem;
+}
+.li-text-desc {
+    display: flex;
+    gap: .5rem;
+}
+.text-li{
+    margin-bottom: 1rem;
+}
+.p1-li{
+    font-size: 1rem;
+    font-weight: 520;
+    padding-bottom: .3rem;
+}
+.ul-text-desc {
+    width: 20rem;
+}
+.icon-li img{
+    width: 1.2rem;
+}
+

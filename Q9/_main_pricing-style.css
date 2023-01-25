@@ -1,0 +1,185 @@
+/* switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #47A8DA;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #DAEFFB;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #DAEFFE;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* ------------- */
+
+.main-pricing {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-pricing {
+    padding: 2rem;
+}
+
+.h1-title-pricing {
+    font-size: 1.5rem;
+}
+
+.button-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+}
+
+
+.text-after-switch {
+    font-weight: 600;
+}
+
+.card-price {
+    /* width: 10rem; */
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.a-card-pricing {
+    width: 14rem;
+    height: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.title-card-pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+.title-card-pricing .line-pricing,
+.title-card-pricing .title-card,
+.title-card-pricing .price-main {
+    margin: .2rem;
+}
+.price-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+}
+.line-pricing {
+    display: flex;
+}
+
+.line-hr {
+    width: 5rem;
+}
+
+.radios-border {
+
+    border: 1.5px solid black;
+    border-radius: 100%;
+}
+
+.bold-price {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.title-card p{
+    font-size: 1.2rem;
+}
+.text-main-pricing{
+    padding: 1rem;
+}
+
+.buttom-price button {
+    font-size: .7rem;
+    color: #62b9e8;
+    background-color: #D4DEE5;
+    border: none;
+    padding: .5rem .7rem;
+}
+
+
+
+/* hover */
+.a-card-pricing:hover {
+    cursor: pointer;
+    background: url("./images/icons-price/wave-haikei\ \(6\).svg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: #7a40c2 0px 4px 6px -1px, #b898de 0px 2px 4px -1px;
+}
+
+.a-card-pricing:hover button {
+    color: #9bdffa;
+    background-color: #40B3EE;
+}
+
+.a-card-pricing:hover .title-card-pricing {
+    color: #ffff;
+}
+
+.a-card-pricing:hover .title-card-pricing .radios-border {
+    border: 1.5px solid #ffff;
+}

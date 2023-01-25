@@ -1,0 +1,96 @@
+
+header {
+    width: 100%;
+    background-color: #6E2FC8;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 8rem;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.logo img {
+    width: 8rem;
+    height: 1.5rem;
+}
+
+.menu {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+}
+
+.link-menu {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    gap: 2rem;
+    margin-right: 2rem;
+}
+
+.link-menu a {
+    text-decoration: none;
+    color: #AF76F6;
+}
+
+.link-menu a:hover {
+    color: #4EAEF0;
+    text-decoration: underline;
+}
+
+/* .link-menu a:hover::af {
+    content: "";
+    display: flex;
+    box-shadow: #4EAEF0;
+} */
+
+.btn-menu button {
+    cursor: pointer;
+    height: 100%;
+    padding: .6rem 1rem;
+    background-color: #3FB8EC;
+    color: #ffff;
+    border: none;
+    border-radius: .1rem;
+}
+.center-header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8rem;
+}
+.right-main-header img{
+    width: 45rem;
+}
+.left-main-header  div{
+    margin-bottom: 1.5rem;
+}
+.left-main-header{
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.left-main-header h1{
+    font-size: 3rem;
+    line-height: 3rem;
+    color: #ffff
+}
+.left-main-header p{
+    color: #AF76F6;
+}
+.btn-main-header button{
+    cursor: pointer;
+    background-color: #3FB8EC;
+    border: none;
+    color: #ffff;
+    padding: .7rem 1rem;
+}

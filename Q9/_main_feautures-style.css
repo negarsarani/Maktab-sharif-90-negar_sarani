@@ -1,0 +1,85 @@
+.main-features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.cards-featurs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.a-card-feature{
+    width: 10rem;
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:1rem 0 0 0;
+}
+.title-featurs{
+    font-size: 1rem;
+    width: 25rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.img-card-feature {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    border-radius: 100%;
+    justify-content: center;
+    align-self: center;
+    /* background-color: ; */
+}
+.background-clean{
+    background-color: #f9dfda;
+    
+}
+.background-data{
+    background-color: #F9F1E8;
+    
+}
+.background-secured{
+    background-color: #E5F5F3;
+    
+}
+.background-support{
+    background-color: #F5E6F6;
+
+}
+.img-card-feature img {
+    width: 2rem;
+    align-self: center;
+}
+.text-card-feature{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-text-card-feature{
+font-size: .8rem;
+margin-bottom: .8rem;
+}
+.parag-text-card-feature{
+    width: 9rem;
+    text-align: center;
+    color: ffff;
+}
+.text-card-feature:hover{
+    width: 100%;
+
+}
+.a-card-feature:hover{
+    cursor: pointer;
+    color: #ffff;
+    background:url("./images/icons-features/wave-haikei\ \(1\).svg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: #7a40c2 0px 4px 6px -1px, #b898de 0px 2px 4px -1px;
+}
