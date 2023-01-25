@@ -1,0 +1,71 @@
+.main-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5rem;
+    /* background-color: #b898de; */
+
+}
+
+.desc-title-user {
+    width: 25rem;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.h1-desc-user{
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+.box-user {
+    /* background-color: aqua; */
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+}
+.a-card-user {
+    /* border: #7a40c2 solid; */
+    display: flex;
+    gap: .4rem;
+    width: 15rem;
+    padding: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.a-card-user:hover{
+    box-shadow: #7a40c2 0px 4px 6px -1px, #b898de 0px 2px 4px -1px;
+}
+
+.div-Top-user {
+    display: flex;
+    padding-bottom: .5rem;
+    gap: .5rem;
+}
+
+.icon-top-user img {
+    width: 1rem;
+}
+.div-buttom-user{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.img-user img{
+    border: 1px solid gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 100%;
+}
+
+
+img {
+    width: 2.5rem;
+}
